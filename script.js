@@ -5,7 +5,7 @@ async function searchOSINT() {
         return;
     }
 
-    const apiKey = "716f228ed5e80f210a17b2f2e80eaadc4b692e94aec7ca6a682fae095de38fac";
+    const apiKey = "";
     const url = `https://serpapi.com/search.json?q=${encodeURIComponent(query)}&location=Austin,Texas,United+States&hl=en&gl=us&google_domain=google.com&api_key=${apiKey}`;
 
     document.getElementById("output").textContent = "🔄 Sedang mencari...";
